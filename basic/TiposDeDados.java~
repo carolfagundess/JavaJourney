@@ -1,0 +1,13 @@
+public class TiposDeDados
+{
+  public static void main (String[]) args)
+ {
+   int i = 5;
+   double salario = 102.43;
+   char letra = 'A';
+   String frase = "Seu salário é de ";
+   System.out.println (frase + "R$ " + salario);
+   System.out.println ("Ontem dei "+ i + " voltas ao redos da quadara");
+   System.out.println ("Gosto da letra " + letra);
+  }
+}

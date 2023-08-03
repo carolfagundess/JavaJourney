@@ -1,0 +1,15 @@
+public class CalculandoVolume
+{
+  public static void main (String [] args)
+  {
+    //*Declarando e preenchendo variavèis*/
+    Double X = Entrada.leiaInt("Qual o compirmento desta sala em metros (m): ")
+    Double Y = Entrada.leiaInt("Qual a largura desta sala em metros (m): ");
+    Double Z = Entrada.leiaInt("Qual a altura desta sala em metros (m): ");
+    //*Calculando o volume da sala*/
+    Double V = (X*Y*Z)
+      
+   //*Imprimindo o resultado*/
+   System.out.println("O volume desta sala é " + V + "em metros (m)");
+  }
+}

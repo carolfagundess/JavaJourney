@@ -1,0 +1,16 @@
+public class TempoDeVida
+{
+  public static void main (String [] args)
+ {
+    //*Declarando e preenchendo variaveis*/
+    int Idade = Entrada.leiaInt("Quantos anos de vida você tem? ");
+    int IdadeDias = Idade*365.25
+    int IdadeMes =  Idade*12
+      
+   //*Imprimindo Resultados*/
+   System.out.println("Você tem " + IdadeDias + "dias de vida");
+   System.out.println("OU");
+   System.out.println(IdadesMeses + "meses de vida");
+  }
+}
+ 
