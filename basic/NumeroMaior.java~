@@ -1,0 +1,8 @@
+public class NumeroMaior
+{
+  public static void main (String [] arg)
+  {
+    int X =Entrada.leiaInt("Digite um número: ");
+    int Y =Entrada.leiaInt("Digite um outro número: ");
+  }
+}
