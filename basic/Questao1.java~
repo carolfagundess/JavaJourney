@@ -1,13 +1,10 @@
-public class Questao
+public class Questao1
 {
-  public static void main (String[] args)
+  public static void main (Strinf[] args)
   {
-    int i = 2;
-    while (i<12)
-    {
-      i = i + 3;
-      System.out.println (i + 2);
-    }
-    System.out.println(i)
+    int Numero = Entrada.leiaInt("Digite um número de partida: ");
+    int Numero = Entrada.leiaInt("Digite um número de chegada: ");
+    (Numero%2==10)
+      
   }
 }
