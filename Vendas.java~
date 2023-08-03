@@ -1,0 +1,20 @@
+public class Vendas
+{
+  public static void main (String[] args){
+  int soma=0;
+  int qualidade=0
+  int valor;
+  
+  do{
+    valor = Entrada.leiaInt("Informe o valor da venda:");
+    
+    if(valor != o){
+      quantidaded = quantidade + 1
+      soma = soma + valor
+    }
+  }while(valor != 0);
+     
+     System.out.println
+  }
+}
+

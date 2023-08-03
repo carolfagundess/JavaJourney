@@ -1,0 +1,31 @@
+ public class Trajeto
+ {
+  public static void main(String[] args) 
+  {
+        double valorVenda;
+        double totalVendido = 0;
+        int quantidadeVendas = 0;
+        
+        Int valorVenda = Entrada.LeiaInt("Digite o valor das vendas (ou 0 para encerrar o dia):");
+       
+            
+            if (valorVenda != 0) {
+                totalVendido += valorVenda;
+                quantidadeVendas++;
+            }
+        } 
+        
+       while(ValorVenda != 0);
+        
+        System.out.println("Total vendido: R$ " + totalVendido);
+        
+        if (quantidadeVendas > 0) {
+            double mediaVendas = totalVendido / quantidadeVendas;
+            System.out.println("Média das vendas: R$ " + mediaVendas);
+        } else {
+            System.out.println("Nenhuma venda registrada.");
+        }
+        
+        scanner.close();
+    }
+}
